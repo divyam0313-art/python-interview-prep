@@ -43,3 +43,13 @@ def two_sum(nums, target):
             return [seen[target - x], i]
         seen[x] = i
     return []
+
+
+def two_sum1(nums: list[int], target: int) -> list[int]:
+	pointer1=0
+	while pointer1<nums.length():
+		if nums.contains(target-nums[pointer1]):
+			pointer2=nums.indexof[target-nums[pointer1]]
+			return [pointer1,pointer2]
+		pointer1+=1
+	return []
